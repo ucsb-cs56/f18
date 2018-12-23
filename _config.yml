@@ -156,7 +156,7 @@ defaults:
     values:
      layout: bio
 
-   - scope:
+  - scope:
      path: ""
      type: pages
     values:

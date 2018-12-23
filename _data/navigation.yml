@@ -26,7 +26,7 @@ main:
     url: /
     baseurl: /s19
   - title: Hwk
-    url: /hwk/
+    url: /hwk_list/
     baseurl: /f18
   - title: Office Hours
     url: /info/office_hours/	 
