@@ -47,8 +47,6 @@ offering_links:
   - title: Lab
     url: /lab_list/
     description: "Lab Assignments"
-  - title: Github
-    dropdown:
   - title: Exam
     url: /exam_list/
     description: "Exams"
@@ -65,6 +63,8 @@ offering_links:
          description: "List of General Information Pages"
        - title: Office Hours	
          url: /info/office_hours/
+       - title: Staff
+         url: /staff_list/
   - title: Links
     dropdown:	 
        - title: Gauchospace

@@ -101,9 +101,9 @@ collections:
   lectures:
     output: true
     permalink: /lectures/:path/
-  bios:
+  staff:
     output: true
-    permalink: /bios/:path
+    permalink: /staff/:path
 
 
 
@@ -152,9 +152,9 @@ defaults:
   -
     scope:
      path: ""
-     type: bios
+     type: staff
     values:
-     layout: bio
+     layout: staff
 
   - scope:
      path: ""
