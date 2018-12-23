@@ -7,6 +7,15 @@ remote_theme: pconrad/ucsb-cs-jekyll-theme-try2
 url: https://ucsb-cs56.github.io # the base hostname & protocol for your site
 baseurl: /f18  # the subpath of your site, e.g. "/blog"
 
+
+include:
+  - _pages
+exclude:
+  - .sass-cache
+  - Gemfile
+  - LICENSE
+  - .bundle
+
 course: "CS56"
 qtr: "F18"
 qxx: "f18"
@@ -146,6 +155,12 @@ defaults:
      type: bios
     values:
      layout: bio
+
+   - scope:
+     path: ""
+     type: pages
+    values:
+     layout: default
 
 head_scripts:
    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
