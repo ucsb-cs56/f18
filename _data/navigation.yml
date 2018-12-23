@@ -19,12 +19,14 @@ home:
    baseurl: /
 
 main_dropdown:
-   title: resources
+   title: Resources
    items:
      - title: Topics
        url: /topic_list/
      - title: Resources
        url: /resource_list/
+     - title: Tutorials
+       url: /tutorial_list/
 
 offerings:
    title: F18
@@ -41,16 +43,27 @@ offerings:
 offering_links:
   - title: Hwk
     url: /hwk_list/
+    description: "Homework Assignments"
   - title: Lab
     url: /lab_list/
+    description: "Lab Assignments"
   - title: Calendar
     url: /info/calendar/
+    description: "Assignment Calendar"
+  - title: Info	
+    url: /info_list/
+    description: "List of General Information Pages"
   - title: OfcHrs	
     url: /info/office_hours/
+    description: "Office Hours"
   - title: Syllabus
-    url: /info/syllabus/	
+    url: /info/syllabus/
+    description: "Syllabus"    
   - title: ucsb-cs56-f18
     url: https://github.com/ucsb-cs56-f18
-
+    description: "Github Organization ucsb-cs56-f18"
+  - title: webapps
+    url: https://github.com/ucsb-cs56-webapps
+    description: "ucsb-cs56-webapps github org"        
 
 
