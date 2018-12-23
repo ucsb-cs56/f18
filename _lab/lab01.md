@@ -9,7 +9,7 @@ org: ucsb-cs56-f18
 herokuapp: "https://ucsb-cs-github-linker.herokuapp.com/"
 ---
 
-If you find typos or problems with the lab instructions, please report them on Piazza
+If you find typos or problems with the lab instructions, please report them on Piazza.
 
 Overview of this lab
 ====================
