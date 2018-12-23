@@ -9,7 +9,7 @@ permalink: "/staff_list/"
 
 <table class="bios">
 <tr><th>Name</th><th>Role</th><th>Bio</th></tr>
-{% for b in site.bios %}
+{% for b in site.staff %}
   <tr>
     <td><a href="{{b.url | relative_url }}">{{b.name }}</a></td>
     <td>{{b.role}}</td>
