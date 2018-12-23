@@ -13,29 +13,44 @@ production_url: https://ucsb-cs56.github.io
 # For items that should be relative urls, put the baseurl of the site
 # they come from, / for main site, and /f18, /s19, etc for child sites.
 
-brand:
+home:
    title: UCSB CS56
    url: /
    baseurl: /
 
-main:
-  - title: F18
-    url: /
-    baseurl: /f18
-  - title: S19
-    url: /
-    baseurl: /s19
+main_dropdown:
+   title: resources
+   items:
+     - title: Topics
+       url: /topic_list/
+     - title: Resources
+       url: /resource_list/
+
+offerings:
+   title: F18
+   url: /	
+   baseurl: /f18
+   items:
+      - title: F18
+        url: /
+        baseurl: /f18
+      - title: S19
+        url: /
+        baseurl: /s19
+
+offering_links:
   - title: Hwk
     url: /hwk_list/
-    baseurl: /f18
-  - title: Office Hours
-    url: /info/office_hours/	 
-    baseurl: /f18
-  - title: Gauchospace
-    url: https://gauchospace.ucsb.edu/courses/course/view.php?id=31412
-  - title: Piazza
-    url: https://piazza.com/class/jkq2p768nf6xb
-  - title: ucsb-cs56-f18 github org
+  - title: Lab
+    url: /lab_list/
+  - title: Calendar
+    url: /info/calendar/
+  - title: OfcHrs	
+    url: /info/office_hours/
+  - title: Syllabus
+    url: /info/syllabus/	
+  - title: ucsb-cs56-f18
     url: https://github.com/ucsb-cs56-f18
-  - title: ucsb-cs56-webapps
-    url: https://github.com/ucsb-cs56-webapps
+
+
+
