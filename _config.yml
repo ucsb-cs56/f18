@@ -7,6 +7,8 @@ remote_theme: pconrad/ucsb-cs-try1
 url: https://ucsb-cs56.github.io # the base hostname & protocol for your site
 baseurl: /f18  # the subpath of your site, e.g. "/blog"
 
+ajax_nav_url: "https://ucsb-cs56.github.io/nav_only/"
+
 course: "CS56"
 qtr: "F18"
 qxx: "f18"
@@ -148,4 +150,4 @@ defaults:
      layout: bio
 
 head_scripts:
-   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
