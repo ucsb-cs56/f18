@@ -59,11 +59,12 @@ offering_links:
   - title: Syllabus
     url: /info/syllabus/
     description: "Syllabus"    
-  - title: ucsb-cs56-f18
-    url: https://github.com/ucsb-cs56-f18
-    description: "Github Organization ucsb-cs56-f18"
-  - title: webapps
-    url: https://github.com/ucsb-cs56-webapps
-    description: "ucsb-cs56-webapps github org"        
+  - title: Github
+    dropdown:
+       - title: ucsb-cs56-f18
+         url: https://github.com/ucsb-cs56-f18
+       - title: ucsb-cs56-webapps
+         url: https://github.com/ucsb-cs56-webapps
+
 
 
