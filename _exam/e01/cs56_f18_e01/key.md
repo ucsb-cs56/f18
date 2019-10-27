@@ -116,7 +116,8 @@ All of the files on [Handout A](handout_a/) are complete and will compile EXCEPT
                  double wheelDiameter,
                  String name,
                  String batteryType) {
-```   
+```
+
 <p class="key" markdown="1">
 ```
   super(numGears, wheelDiameter);                                   
@@ -128,15 +129,27 @@ All of the files on [Handout A](handout_a/) are complete and will compile EXCEPT
 ```
    }
 ```
-<p class="key" markdown="1">
+
+<div class="key" markdown="1">
+
+<p markdown="1">
 Note: if you don't include `super(numGears, wheelDiameter);` you get:
+</p>
+
+
 ```
 required: int,double
   found: no arguments
   reason: actual and formal argument lists differ in length
 1 error
 ```
+
+
+
+<p>
 Also, the following code produces an error:
+</p>
+
 ```java
 this.numGears = numGears;
 this.wheelDiameter = wheelDiameter;
@@ -151,7 +164,12 @@ EBike.java:21: error: numGears has private access in Bicycle
 EBike.java:22: error: wheelDiameter has private access in Bicycle
 		this.wheelDiameter = wheelDiameter;
 ```
+
+</div>
+
+
 </li>
+
 <li markdown="1"> (4 pts) In the space below, write the other missing part from `EBike.java`   It is at least one line of code, and at most three lines of code; so it should easily fit in the space provided.    Answer as though the code you write would be placed at line 10 of the listing for `EBike.java` on [Handout A](handout_a/).
 
 ```
